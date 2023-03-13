@@ -7,7 +7,6 @@ function LearnHOC(Component) {
       margin: "1rem",
       backgroundColor: "blue",
     };
-    const obj = { name: "name", age: "age" };
     // console.log(obj) = { name: "name", age: "age" }
     // console.log(...obj) = name:"name" age:"age"
     return <Component style={style} {...props} />;
